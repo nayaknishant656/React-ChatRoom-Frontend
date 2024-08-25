@@ -1,0 +1,236 @@
+#parent-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.parent-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border: solid 1px #00000030;
+    margin: auto;
+}
+.left-small-toggel {
+    height: 97%;
+    width: 25%;
+    border: solid 1px #00000030;
+}
+.group-list-parent
+{
+   
+}
+.box-group-list
+{
+ 
+}
+.right-large-message
+{
+   
+    height: 97%;
+    width: 75%;
+    margin-left: 15px;
+    overflow: hidden;
+    border: solid 1px #00000030;
+}
+.top-large-box
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #00000030;
+}
+.left-small-box
+{
+    height: 100%;
+    width: 150px;
+}
+.box-preview
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box-bar
+{
+    padding: 7px;
+}
+.centre-images-box
+{
+
+    /* height: 100%; */
+    width: 191px;
+}
+.centre-images-box
+{
+    display: grid;
+    place-content: center;
+}
+.images-preview-box img:nth-child(4)
+{
+height: 45px;
+width: 45px;
+}
+.last-fa-icon
+{
+
+    width: 80px;
+    display: grid;
+}
+.centre-fa-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meassaging-app-large
+{
+    height: 88%;
+    width: 100%;
+    position: relative;
+}
+.message-box-display
+{
+    /* border: groove red 1px;
+    background-color: aquamarine;
+    width: 43%; */
+}
+.parent-message-box
+{
+    display: flex;
+    width: 258px;
+    padding: 5px 3%;
+    margin: 10px 0;
+    background-color: #e8f2e6;
+}
+.right-time-pos
+{
+    position: absolute;
+    right: 45px;
+}
+
+.parent-message-box > img
+{
+    height: 30px;
+    width: 30px;
+}
+.centre-text
+{
+    padding: 0px 2%;
+    width: 100%;
+}
+.centre-text > h4{
+    /* margin-bottom: 10px; */
+    font-size: 12px;
+}
+.centre-text > p {
+    font-size: 11px;
+  
+    border-radius: 0px 10px 10px 10px;
+    text-align: left;
+}
+.right-pos
+{
+    position: absolute;
+    right: 0px;
+    border-radius: 5px;
+  
+}
+.right-bg-color
+{
+background-color: #cae2fe ;
+}
+.hidden
+{
+    visibility: hidden;
+}
+.text-box-s
+{
+    padding: 15px 4%;
+}
+.text-box-s > h4{
+    font-size: 12px;
+}
+.text-box-s > p
+{
+    font-size: 8px;
+}
+.time-show{
+    position: absolute;
+    top: 15px;
+    right: 6px;
+}
+.display-bar img
+{
+    padding: 5px 2%;
+}
+.display-bar
+{
+    display: flex;
+    position: relative;
+    border-bottom: solid 1px #0000002e;
+}
+.search-bar-parent
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    /* justify-content: 124pleft-barcenter; */
+    bottom: 0;
+    height: 8%;
+    border-top: solid 1px #00000030;
+}
+.search-bar-parent > p
+{
+    position: relative;
+    top: 10px;
+    left: 56px;
+}
+.button-bar
+{
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 124px;
+    background: #00CEE0;
+    border-radius: 10px;
+    /* border-radius: 13%; */
+
+}
+.button-bar > img
+{
+    height: 24px;
+    width: 24px;
+}
+.button-bar > button
+{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: 7px;
+    margin: 15;
+}
+.left-bar
+{
+    padding: 8px 2%;
+    width: 50%;
+    /* margin: 10px; */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+.left-bar > img 
+{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px;
+}

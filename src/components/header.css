@@ -1,0 +1,29 @@
+.parent-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #00354E;
+    color: white;
+    position: relative;
+    padding: 12px 5%;
+}
+.centre-chats-profile>ul {
+    display: flex;
+    width: 250px;
+}
+.centre-chats-profile>ul>li {
+    list-style: none;
+    padding: 0px 5%;
+
+}
+.parent-left-login
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-left-login > img
+{
+height: 35px;
+width: 35px;
+}
